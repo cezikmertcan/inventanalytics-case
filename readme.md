@@ -21,7 +21,6 @@ cd inventanalytics-case
 ```
 
 **Create the .env file**
-Example .env file
 
 ```env
 MYSQL_USERNAME="root"
