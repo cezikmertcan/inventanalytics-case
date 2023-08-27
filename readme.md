@@ -34,6 +34,19 @@ SERVER_PORT=3000
 
 Please keep in mind that the docker compose file will start a mysql, an adminer and the server containers at ports 3306, 8080, and 3000.
 
+**IF YOU ARE ON WINDOWS AND YOUR DOCKER IS LINUX BASED**
+You have to change the ending format of **startup.sh** file to LF
+
+**CRLF (Carriage Return and Line Feed)**
+
+CR represents the Carriage Return character (ASCII code 13, \r).
+LF represents the Line Feed character (ASCII code 10, \n).
+CRLF is a line ending format commonly used on Windows systems and by many Internet protocols. It indicates the end of a line by using both the Carriage Return and Line Feed characters.
+LF (Line Feed):
+
+LF represents the Line Feed character (ASCII code 10, \n).
+LF is a line ending format commonly used on Unix-like systems (including Linux and macOS) and is also used by many programming languages.
+
 **Build the docker compose file**
 
 ```sh
