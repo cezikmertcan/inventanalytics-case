@@ -53,9 +53,9 @@ or for detached mode:
 docker compose up -d
 ```
 
-By doing these steps you can access :
-**adminer** at [localhost:8080](http://localhost:8080)
-**server** at [localhost:3000](http://localhost:3000)
+By doing these steps you can access
+**adminer** at [localhost:8080](http://localhost:8080) and
+**server** at [localhost:3000](http://localhost:3000).
 Server will automatically create the tables so you don't have to create it manually.
 
 **Login information for adminer**
