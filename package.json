@@ -1,0 +1,23 @@
+{
+  "name": "inventanalytics-case",
+  "version": "1.0.0",
+  "description": "This project, developed by Mertcan Çezik for InventAnalytics, aims to assist users in borrowing and managing their personal library of books. Its purpose is to serve for users to borrow and keep track of their book collection.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "db": "cross-env INITDB=true node index.js",
+    "dev": "cross-env MYSQL_HOST=127.0.0.1 node index.js"
+  },
+  "author": "Mertcan Çezik <cezikmertcan@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1",
+    "sequelize-cli": "^6.6.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
