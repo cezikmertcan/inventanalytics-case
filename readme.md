@@ -73,7 +73,7 @@ You can leave the database empty if you want to see all the databases.
 ## If you want to launch manually, please follow this steps
 
 **Create and initialize the database**
-Here is the example [ddl file](http://localhost:3000)
+Here is the example [ddl file](https://raw.githubusercontent.com/cezikmertcan/inventanalytics-case/master/databaseddl.sql)
 If you do not want to do it manually after creating the database and adding it to the **.env file** you can run this command:
 
 ```sh
